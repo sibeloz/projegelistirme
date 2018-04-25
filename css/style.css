@@ -1,0 +1,9 @@
+@charset "utf-8";
+.tumu{width:960px;height:auto;margin:auto;background-color:white;}
+.ust{border-bottom:solid 3px #000;padding:15px 0px;margin:5px;}
+.logo{width:120px;heigth:auto;float:left;}
+.ustsag{float:right;}
+.temizleme{clear:both;}
+.txtara{height:30px;border:solid 5px gray;float:left;}
+.btnara{background-image:url(../resim/search_btn.png);height:40px;width:40px;float:left;border:none;cursor:pointer;}
+.sosyal{float:right;}

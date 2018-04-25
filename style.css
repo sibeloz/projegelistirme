@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tumu{
+	width:960px;
+	margin:0px auto;
+	}
+	.ust{
+		border-bottom:solid 2px #000000;
+		padding:15px 0px;
+		}
+		
+	.logo{
+		float:left;
+		width:120px;}
+	.ustsag{
+		float:right;}
+		
+		.temizleme{
+			clear:both;}
+			
+		.txtara{
+			height:36px;
+			border:solid 1px #000000;
+			float:left;}
+		.btnara{
+			height:40px;
+			width:36px;
+			background-image:url(images/search_btn.png);
+			border:none;
+			}
+		.sosyal{
+			float:right;}
+		.menu{
+			
+			height:40px;
+			background-color:#000;
+		}
+		.menu ul{
+			margin:0px;
+			padding:0px;
+		    list-style-type:none;
+			}
+		.menu ul li{
+			float:left;
+			}
+		.menu ul li a{
+			text-decoration:none;
+			font-family: 'univers_light_condensedRg';
+			font-size:16px;
+			color:#fff;
+			font-weight:bold;
+			display:block;
+			padding:0px 15px;
+			line-height:40px;
+			text-transform:uppercase;
+			letter-spacing:2px;
+			}
+			.slider{
+				margin-top:30px;
+				}
+				.sutun{
+					float:left;
+					width:300px;
+					height:400px;
+					margin-left:30px;
+					position:relative;
+					overflow:hidden;
+					
+					}
+					.sutun span{
+						position:absolute;	
+						left:0px;
+						bottom:0px;
+						z-index:10px; 
+					    background-color:rgba(243,24,27,0.7);
+						width:100%;
+						height:50px;
+						line-height:50px;
+						color:#fff;
+						padding-left:15px;
+						font-family: 'univers_light_condensedRg';
+						text-transform:uppercase;
+						font-size:20px;
+						transition:1s;
+					
+					}
+					.sutun a:hover >span{
+						height:400px;
+						background-color:rgba(51,151,93,1.00);
+						transition:1s;
+						}	
+					
+					
+					
+					
+					.kampanya{
+						margin-left:-30px;
+						}
+						
+						.footer{
+							line-height:50px;
+							text-align:center;
+							margin-top:30px;
+							border-bottom:solid 1px #000;
+							border-top:solid 1px #000;
+							
+							
+							}
+						
+				.kutu{
+					float:left;
+					width:269px;
+					height:308px;
+					margin-left:30px;
+					position:relative;
+					overflow:hidden;
+					margin-top:20px;
+					
+					}
+					
+				.resimler{
+					width:960px;
+					height:auto;
+					background-color:rgba(0,0,0,0.7);
+					}
+				.kutu2{
+					
+					width:468px;
+					height:262px;
+					float:left;
+					margin-left:10px;
+					margin-top:20px;}
+				.kutu span{
+						position:absolute;	
+						left:0px;
+						bottom:0px;
+						 
+					    background-color:rgba(251,23,27,0.7);
+						width:100%;
+						height:50px;
+						line-height:50px;
+						color:#fff;
+						padding-left:15px;
+						font-family: 'univers_light_condensedRg';
+						text-transform:uppercase;
+						font-size:20px;
+						transition:1s;
+				}
+					
+	
+				.kutu a:hover >span{
+						height:308px;
+						background-color:rgba(51,151,93,1.00);
+						transition:1s;
+						}				
+				
+				@media(max-width:768px){
+									
+					.tumu{
+						width:100%;
+					}
+					.slider img{
+						width:100%;
+						}
+					.sutun{
+						float:none;
+						margin-left:auto;
+						margin-right:auto;
+						
+						}
+				.kampanya{
+					margin-left:0px;
+					}	
+					
+					.menu ul{
+						display:none;
+			background-color:rgba(232,38,41,0.6);
+						position:relative;
+						clear:both;
+						}
+						
+						.menu span{
+							border:solid 2px #Fff;
+							float:right;
+							clear:both;
+							margin-bottom:4px;
+							margin-top:4px;
+							width:40px;
+							margin-right:10px;
+							}
+							
+							.menu:hover >ul{								
+								display:block;
+								
+							}
+							
+							.menu ul li{
+								float:none;
+								border-bottom:solid 2px #E11518;
+								}
+							.menu ul li a{
+								color:red;}
+				}
+				
+				
+				
+				
+				
+				
